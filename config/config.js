@@ -6,7 +6,7 @@ module.exports = {
     password: process.env.SEQUELIZE_PASSWORD,
     database: 'nodebird',
     host: '127.0.0.1',
-    post:3306,
+    port:'3306',
     dialect: 'mysql',
     logging: false,
   },
